@@ -187,19 +187,13 @@ body {
 }
 
 /* My styles */
-.door-riddle__path {
-  background-color: #fff;
-  height: 66px;
-  width: 100px;
-}
 
-.level_1-wrapper {
+/* Level 1 */
+.level-wrapper {
   position: relative;
   width: 100%;
   height: 100%;
 }
-
-/* buttons */
 
 .door-riddle__button_3 {
   position: absolute;
@@ -231,37 +225,11 @@ body {
   opacity: 1;
 }
 
-.door-riddle__button_3_end {
-  background-color: red;
-  position: absolute;
-  top: 190px;
-  left: 300px;
-}
+/* Level 2 */
 
-/* paths */
-.door-riddle__button_3-path_0 {
-  z-index: 5;
-  height: 66px;
+.door-riddle__button_6 {
   position: absolute;
-  border-radius: 33px;
-  /* border-top-left-radius: 33px;
-  border-top-right-radius: 33px; */
-  width: 60%;
-  transform: rotate(-45deg);
-  top: 200px;
-  transform-origin: 100% 100%;
-  left: 90px;
-  background-color: lavenderblush;
-}
-.door-riddle__button_3-path_1 {
-  height: 66px;
-  position: absolute;
-  border-radius: 33px;
-  /* border-top-left-radius: 33px;
-  border-top-right-radius: 33px; */
-  width: 60%;
-  transform: rotate(-45deg);
-  top: 200px;
-  transform-origin: bottom left;
-  left: 60px;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
 }
